@@ -26,7 +26,7 @@ export function buildSessionMiddleware() {
     cookie: {
       httpOnly: true,
       secure: env.NODE_ENV === "production",
-      sameSite: "lax",
+      sameSite: env.NODE_ENV === "production" ? "none" : "lax",
       maxAge: SESSION_MAX_AGE_MS,
     },
   });
