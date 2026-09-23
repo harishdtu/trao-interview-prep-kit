@@ -11,7 +11,7 @@ import { env } from "./config/env";
 
 export function buildApp(repos: Repositories, llm: LLMProvider): Express {
   const app = express();
-
+  app.set("trust proxy", 1);
   app.use(cors({ origin: env.FRONTEND_ORIGIN, credentials: true }));
   app.use(express.json({ limit: "2mb" }));
   app.use(cookieParser());
