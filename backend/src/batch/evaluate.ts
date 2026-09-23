@@ -112,7 +112,7 @@ async function resolveLLMProvider(): Promise<LLMProvider> {
     // without a real Gemini key. NEVER used unless explicitly opted into
     // via EVALUATE_DRY_RUN=true; real evaluation always requires
     // GEMINI_API_KEY and calls the genuine Gemini API.
-    const { DryRunProvider } = await import("../llm/DryRunProvider");
+    const { DryRunProvider } = await import("../llm/DryRunProvider.js");
     // eslint-disable-next-line no-console
     console.warn("[evaluate] EVALUATE_DRY_RUN=true — using a scripted dry-run provider, NOT real Gemini.");
     return new DryRunProvider();
