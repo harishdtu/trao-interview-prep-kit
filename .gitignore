@@ -6,6 +6,6 @@ build/
 .env
 .env.local
 .env.*.local
-coverage/
+/coverage/
 .DS_Store
 *.tsbuildinfo
