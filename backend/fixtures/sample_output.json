@@ -1,0 +1,648 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-09-22T07:33:28.386Z",
+  "kits": [
+    {
+      "id": "case-01",
+      "status": "ok",
+      "kit": {
+        "source": {
+          "company": "127",
+          "company_url": "http://127.0.0.1:8099/",
+          "role": "Software Engineer",
+          "location": "",
+          "jd_chars": 138,
+          "researched_at": "2026-09-22T07:33:28.358Z",
+          "pages_used": [
+            "http://127.0.0.1:8099/",
+            "http://127.0.0.1:8099/careers",
+            "http://127.0.0.1:8099/about"
+          ]
+        },
+        "company_brief": {
+          "summary": "Dry-run summary: limited company research is available in this smoke-test mode.",
+          "what_they_do": "Unknown in dry-run mode.",
+          "sources": [
+            "http://127.0.0.1:8099/",
+            "http://127.0.0.1:8099/careers",
+            "http://127.0.0.1:8099/about"
+          ]
+        },
+        "role": {
+          "title": "Software Engineer",
+          "seniority": "unspecified",
+          "responsibilities": [
+            "We are looking for a Senior React Engineer with 5+ years of React experience",
+            "Must mentor junior engineers"
+          ],
+          "requirements": [
+            {
+              "id": "r1",
+              "text": "We are looking for a Senior React Engineer with 5+ years of React experience",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r2",
+              "text": "Must mentor junior engineers",
+              "kind": "behavioural",
+              "priority": "must"
+            },
+            {
+              "id": "r3",
+              "text": "GraphQL experience is a bonus",
+              "kind": "technical",
+              "priority": "nice"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q2",
+            "requirement_ids": [
+              "r3"
+            ],
+            "category": "technical",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r3.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q3",
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "behavioural",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r2.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q4",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "system-design",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q5",
+            "requirement_ids": [
+              "r3"
+            ],
+            "category": "system-design",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r3.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q6",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "company-fit",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q7",
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "company-fit",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r2.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          }
+        ],
+        "flashcards": [
+          {
+            "id": "f1",
+            "front": "(dry-run) Key point for r1?",
+            "back": "(dry-run) Answer for r1.",
+            "requirement_ids": [
+              "r1"
+            ]
+          },
+          {
+            "id": "f2",
+            "front": "(dry-run) Key point for r2?",
+            "back": "(dry-run) Answer for r2.",
+            "requirement_ids": [
+              "r2"
+            ]
+          },
+          {
+            "id": "f3",
+            "front": "(dry-run) Key point for r3?",
+            "back": "(dry-run) Answer for r3.",
+            "requirement_ids": [
+              "r3"
+            ]
+          }
+        ],
+        "schedule": {
+          "days_available": 5,
+          "days": [
+            {
+              "day": 1,
+              "focus": "technical",
+              "question_ids": [
+                "q1",
+                "q2"
+              ],
+              "minutes": 30
+            },
+            {
+              "day": 2,
+              "focus": "system-design",
+              "question_ids": [
+                "q4",
+                "q5"
+              ],
+              "minutes": 30
+            },
+            {
+              "day": 3,
+              "focus": "behavioural",
+              "question_ids": [
+                "q3"
+              ],
+              "minutes": 15
+            },
+            {
+              "day": 4,
+              "focus": "company-fit",
+              "question_ids": [
+                "q6"
+              ],
+              "minutes": 15
+            },
+            {
+              "day": 5,
+              "focus": "company-fit",
+              "question_ids": [
+                "q7"
+              ],
+              "minutes": 15
+            }
+          ]
+        },
+        "coverage": {
+          "uncovered_requirement_ids": [],
+          "passes": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "case-02",
+      "status": "ok",
+      "kit": {
+        "source": {
+          "company": "127",
+          "company_url": "http://127.0.0.1:8099/",
+          "role": "Software Engineer",
+          "location": "",
+          "jd_chars": 82,
+          "researched_at": "2026-09-22T07:33:28.373Z",
+          "pages_used": [
+            "http://127.0.0.1:8099/",
+            "http://127.0.0.1:8099/careers",
+            "http://127.0.0.1:8099/about"
+          ]
+        },
+        "company_brief": {
+          "summary": "Dry-run summary: limited company research is available in this smoke-test mode.",
+          "what_they_do": "Unknown in dry-run mode.",
+          "sources": [
+            "http://127.0.0.1:8099/",
+            "http://127.0.0.1:8099/careers",
+            "http://127.0.0.1:8099/about"
+          ]
+        },
+        "role": {
+          "title": "Software Engineer",
+          "seniority": "unspecified",
+          "responsibilities": [
+            "Backend engineer, Node",
+            "js, must have 3+ years experience with distributed systems"
+          ],
+          "requirements": [
+            {
+              "id": "r1",
+              "text": "Backend engineer, Node",
+              "kind": "technical",
+              "priority": "nice"
+            },
+            {
+              "id": "r2",
+              "text": "js, must have 3+ years experience with distributed systems",
+              "kind": "technical",
+              "priority": "must"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q2",
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "technical",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r2.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q3",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "behavioural",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q4",
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "behavioural",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r2.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q5",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "system-design",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q6",
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "system-design",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r2.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q7",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "company-fit",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q8",
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "company-fit",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r2.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          }
+        ],
+        "flashcards": [
+          {
+            "id": "f1",
+            "front": "(dry-run) Key point for r1?",
+            "back": "(dry-run) Answer for r1.",
+            "requirement_ids": [
+              "r1"
+            ]
+          },
+          {
+            "id": "f2",
+            "front": "(dry-run) Key point for r2?",
+            "back": "(dry-run) Answer for r2.",
+            "requirement_ids": [
+              "r2"
+            ]
+          }
+        ],
+        "schedule": {
+          "days_available": 2,
+          "days": [
+            {
+              "day": 1,
+              "focus": "technical + behavioural",
+              "question_ids": [
+                "q2",
+                "q4",
+                "q1",
+                "q3"
+              ],
+              "minutes": 60
+            },
+            {
+              "day": 2,
+              "focus": "system-design + company-fit",
+              "question_ids": [
+                "q6",
+                "q8",
+                "q5",
+                "q7"
+              ],
+              "minutes": 60
+            }
+          ]
+        },
+        "coverage": {
+          "uncovered_requirement_ids": [],
+          "passes": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "case-03",
+      "status": "failed",
+      "kit": null,
+      "error": {
+        "code": "INVALID_INPUT",
+        "message": "Job description is required."
+      }
+    },
+    {
+      "id": "case-04",
+      "status": "ok",
+      "kit": {
+        "source": {
+          "company": "127",
+          "company_url": "http://127.0.0.1:9/unreachable",
+          "role": "Software Engineer",
+          "location": "",
+          "jd_chars": 54,
+          "researched_at": "2026-09-22T07:33:28.365Z",
+          "pages_used": []
+        },
+        "company_brief": {
+          "summary": "No content could be retrieved from http://127.0.0.1:9/unreachable. fetch failed",
+          "what_they_do": "Unknown — company website could not be retrieved.",
+          "sources": []
+        },
+        "role": {
+          "title": "Software Engineer",
+          "seniority": "unspecified",
+          "responsibilities": [
+            "Data engineer with Python and SQL experience required"
+          ],
+          "requirements": [
+            {
+              "id": "r1",
+              "text": "Data engineer with Python and SQL experience required",
+              "kind": "technical",
+              "priority": "must"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q2",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "behavioural",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q3",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "system-design",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q4",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "company-fit",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          }
+        ],
+        "flashcards": [
+          {
+            "id": "f1",
+            "front": "(dry-run) Key point for r1?",
+            "back": "(dry-run) Answer for r1.",
+            "requirement_ids": [
+              "r1"
+            ]
+          }
+        ],
+        "schedule": {
+          "days_available": 4,
+          "days": [
+            {
+              "day": 1,
+              "focus": "technical",
+              "question_ids": [
+                "q1"
+              ],
+              "minutes": 15
+            },
+            {
+              "day": 2,
+              "focus": "system-design",
+              "question_ids": [
+                "q3"
+              ],
+              "minutes": 15
+            },
+            {
+              "day": 3,
+              "focus": "behavioural",
+              "question_ids": [
+                "q2"
+              ],
+              "minutes": 15
+            },
+            {
+              "day": 4,
+              "focus": "company-fit",
+              "question_ids": [
+                "q4"
+              ],
+              "minutes": 15
+            }
+          ]
+        },
+        "coverage": {
+          "uncovered_requirement_ids": [],
+          "passes": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "case-05",
+      "status": "ok",
+      "kit": {
+        "source": {
+          "company": "127",
+          "company_url": "http://127.0.0.1:8099/",
+          "role": "Software Engineer",
+          "location": "",
+          "jd_chars": 59,
+          "researched_at": "2026-09-22T07:33:28.386Z",
+          "pages_used": [
+            "http://127.0.0.1:8099/",
+            "http://127.0.0.1:8099/careers",
+            "http://127.0.0.1:8099/about"
+          ]
+        },
+        "company_brief": {
+          "summary": "Dry-run summary: limited company research is available in this smoke-test mode.",
+          "what_they_do": "Unknown in dry-run mode.",
+          "sources": [
+            "http://127.0.0.1:8099/",
+            "http://127.0.0.1:8099/careers",
+            "http://127.0.0.1:8099/about"
+          ]
+        },
+        "role": {
+          "title": "Software Engineer",
+          "seniority": "unspecified",
+          "responsibilities": [
+            "Product manager role, must have led cross-functional teams"
+          ],
+          "requirements": [
+            {
+              "id": "r1",
+              "text": "Product manager role, must have led cross-functional teams",
+              "kind": "technical",
+              "priority": "must"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "id": "q1",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q2",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "behavioural",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q3",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "system-design",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          },
+          {
+            "id": "q4",
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "company-fit",
+            "prompt": "(dry-run) Discuss your experience relevant to requirement r1.",
+            "answer_outline": "Discuss relevant experience and give a concrete example.",
+            "difficulty": 2
+          }
+        ],
+        "flashcards": [
+          {
+            "id": "f1",
+            "front": "(dry-run) Key point for r1?",
+            "back": "(dry-run) Answer for r1.",
+            "requirement_ids": [
+              "r1"
+            ]
+          }
+        ],
+        "schedule": {
+          "days_available": 1,
+          "days": [
+            {
+              "day": 1,
+              "focus": "technical + system-design + behavioural + company-fit",
+              "question_ids": [
+                "q1",
+                "q3",
+                "q2",
+                "q4"
+              ],
+              "minutes": 60
+            }
+          ]
+        },
+        "coverage": {
+          "uncovered_requirement_ids": [],
+          "passes": 1
+        }
+      },
+      "error": null
+    }
+  ]
+}

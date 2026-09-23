@@ -1,0 +1,7 @@
+[
+  {"id": "case-01", "jd": "We are looking for a Senior React Engineer with 5+ years of React experience. Must mentor junior engineers. GraphQL experience is a bonus.", "company_url": "http://127.0.0.1:8099/", "days": 5},
+  {"id": "case-02", "jd": "Backend engineer, Node.js, must have 3+ years experience with distributed systems.", "company_url": "http://127.0.0.1:8099/", "days": 2},
+  {"id": "case-03", "jd": "", "company_url": "http://127.0.0.1:8099/", "days": 3},
+  {"id": "case-04", "jd": "Data engineer with Python and SQL experience required.", "company_url": "http://127.0.0.1:9/unreachable", "days": 4},
+  {"id": "case-05", "jd": "Product manager role, must have led cross-functional teams.", "company_url": "http://127.0.0.1:8099/", "days": 1}
+]
